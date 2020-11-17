@@ -40,6 +40,7 @@
         android:layout_width="196dp"
         android:layout_height="48dp"
         android:backgroundTint="#2D426C"
+        android:onClick="clickweb"
         android:text="MORE INFO"
         app:layout_constraintEnd_toStartOf="@+id/button2"
         app:layout_constraintHorizontal_bias="0.5"
