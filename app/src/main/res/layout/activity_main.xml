@@ -23,6 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ListView
+        android:id="@+id/livTraffic"
         android:layout_width="0dp"
         android:layout_height="350dp"
         android:layout_marginStart="32dp"
@@ -35,9 +36,10 @@
 
     <Button
         android:id="@+id/button"
-        style="@android:style/Widget.Material.Light.Button.Toggle"
+        style="@android:style/Widget.Material.Light.Button.Inset"
         android:layout_width="196dp"
         android:layout_height="48dp"
+        android:backgroundTint="#2D426C"
         android:text="MORE INFO"
         app:layout_constraintEnd_toStartOf="@+id/button2"
         app:layout_constraintHorizontal_bias="0.5"
@@ -46,9 +48,10 @@
 
     <Button
         android:id="@+id/button2"
-        style="@android:style/Widget.Material.Light.Button.Toggle"
+        style="@android:style/Widget.Material.Light.Button.Inset"
         android:layout_width="204dp"
         android:layout_height="wrap_content"
+        android:backgroundTint="#2D426C"
         android:text="ABOUT ME"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -40,7 +40,7 @@ public class MyAdapter extends BaseAdapter {
     public View getView(int i, View view, ViewGroup viewGroup) {//นำข้อมูลที่นับจาก getCount
 
         LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View view1 = LayoutInflater.inflate(R.layout.my_listview, viewGroup, false);
+        View view1 = layoutInflater.inflate(R.layout.my_listview, viewGroup, false);
 
         //ผูกตัวแปรบนจาวาของ xml
         ImageView imageView = view1.findViewById(R.id.imvicon);
