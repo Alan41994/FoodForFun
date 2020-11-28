@@ -26,10 +26,20 @@ public class AboutMe extends AppCompatActivity {
         dialIntent.setData(Uri.parse("tel:0958853244"));
         startActivity(dialIntent);
     }//end method dialmobile
+    public void dialMobile1(View view) {
+        Intent dialIntent = new Intent(Intent.ACTION_DIAL);
+        dialIntent.setData(Uri.parse("tel:0984494293"));
+        startActivity(dialIntent);
+    }//end method dialmobile
 
     public void  clickFB(View view) {
         Intent FBIntent = new Intent(Intent.ACTION_VIEW);
         FBIntent.setData(Uri.parse("https://www.facebook.com/bleach.gluttony"));
+        startActivity(FBIntent);
+    }//end method clickFB
+    public void  clickFB1(View view) {
+        Intent FBIntent = new Intent(Intent.ACTION_VIEW);
+        FBIntent.setData(Uri.parse("https://www.facebook.com/anupong.wingnak/"));
         startActivity(FBIntent);
     }//end method clickFB
 

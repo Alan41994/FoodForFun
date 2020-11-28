@@ -14,7 +14,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/linearLayout"
-        app:srcCompat="@drawable/traffic_01" />
+        app:srcCompat="@drawable/menu1" />
 
     <LinearLayout
         android:id="@+id/linearLayout"

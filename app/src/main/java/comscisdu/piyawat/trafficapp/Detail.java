@@ -26,7 +26,7 @@ public class Detail extends AppCompatActivity {
         //รับค่าจากการ intent มาแสดงผลบนหน้า detail
         titleTextView.setText(getIntent().getStringExtra("Title"));
         detailTextView.setText(getIntent().getStringExtra("Detail"));
-        iconImageView.setImageResource(getIntent().getIntExtra("Icon",R.drawable.traffic_01));
+        iconImageView.setImageResource(getIntent().getIntExtra("Icon",R.drawable.menu1));
 
     }// end onCreate()
 

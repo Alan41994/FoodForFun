@@ -14,10 +14,8 @@ public class MainActivity extends AppCompatActivity {
     //Explicit
     ListView listView;
     String[] titleStrings, detailStrings, shortdetailStrings;
-    int[] ints = new int[]{R.drawable.traffic_01, R.drawable.traffic_02,R.drawable.traffic_03,R.drawable.traffic_04,R.drawable.traffic_05,
-            R.drawable.traffic_06,R.drawable.traffic_07,R.drawable.traffic_08,R.drawable.traffic_09,R.drawable.traffic_10,
-            R.drawable.traffic_11,R.drawable.traffic_12,R.drawable.traffic_13,R.drawable.traffic_14,R.drawable.traffic_15,
-            R.drawable.traffic_16,R.drawable.traffic_17,R.drawable.traffic_18,R.drawable.traffic_19,R.drawable.traffic_20};
+    int[] ints = new int[]{R.drawable.menu1, R.drawable.menu2,R.drawable.menu3,R.drawable.menu4,R.drawable.menu5,
+            R.drawable.menu6,R.drawable.menu7,R.drawable.menu8,R.drawable.menu9,R.drawable.menu10};
 
     @Override
 
@@ -55,12 +53,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }//end oncreate
-
-    public void  clickweb(View view) {
-        Intent webIntent = new Intent(Intent.ACTION_VIEW);
-        webIntent.setData(Uri.parse("https://www.dlt.go.th/th/"));
-        startActivity(webIntent);
-    }
 
     public void linkAboutMe(View view) {
         Intent aboutmeIntent = new Intent(MainActivity.this,AboutMe.class);
